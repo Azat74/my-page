@@ -1,0 +1,18 @@
+/* Your custom fonts here */
+
+/* Example
+
+@include font-face('Open Sans', '../fonts/OpenSans-Italic', normal, italic, $exts: woff woff2 ttf);
+
+// Var for using custom font
+$font-1: 'Open Sans', Helvetica, Arial, sans-serif;
+*/
+
+@include font-face('Ubuntu', '../fonts/ubuntu/regular', normal, normal, $exts: ttf);
+@include font-face('Ubuntu', '../fonts/ubuntu/italic', normal, italic, $exts: ttf);
+@include font-face('Ubuntu', '../fonts/ubuntu/medium', 500, normal, $exts: ttf);
+@include font-face('Ubuntu', '../fonts/ubuntu/medium-italic', 500, italic, $exts: ttf);
+@include font-face('Ubuntu', '../fonts/ubuntu/bold', bold, normal, $exts: ttf);
+@include font-face('Ubuntu', '../fonts/ubuntu/bold-italic', bold, italic, $exts: ttf);
+
+$ub: 'Ubuntu', sans-serif;
